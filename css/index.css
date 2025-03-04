@@ -420,6 +420,9 @@ body {
         height: 7em;
     }
 
+    .contador {
+        margin-bottom: 1em;
+    }
     .secundario__imagem.imagem {
         width: 100%;
         max-width: 120px; /* Ajuste o tamanho máximo da imagem */
