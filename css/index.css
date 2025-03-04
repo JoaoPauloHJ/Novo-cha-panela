@@ -57,10 +57,10 @@ body {
     display: flex; /* Habilita o flexbox */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: 50px; /* Ajuste conforme necessário */
-    width: 250px; /* Ajuste conforme necessário */
+    height: 120px; /* Ajuste conforme necessário */
+    width: 10em; /* Ajuste conforme necessário */
     margin: auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 
 }
 
@@ -79,6 +79,7 @@ body {
     width: 250px; /* Ajuste conforme necessário */
     margin: auto; /* Centraliza horizontalmente */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5em;
 }
 
 
@@ -307,6 +308,14 @@ body {
 
 .imagemF {
     align-items: center;
+}
+
+.icone_imagem {
+    object-fit: contain; /* Mantém a proporção da imagem */
+    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Transição suave */
+    border-radius: 10px; /* Borda arredondada opcional */
+    width: 100px;
+    height: 100px;
 }
 
 .imagem {
