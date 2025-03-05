@@ -51,17 +51,59 @@ body {
     height: 100vh;
 
 }
+.icones_imagem {
+    object-fit: contain; /* Mantém a proporção da imagem */
+    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Transição suave */
+    border-radius: 10px; /* Borda arredondada opcional */
+    width: 400px;
+    height: 350px;
+    }
+.icones_grid2 {
+    width: 100%;
+}
+
+.icones_grid {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    grid-template-columns:auto auto auto;
+    margin-bottom: 2em;
+}
+
+.icones_grid3 {
+    width: 300px;
+    height: 200px;
+}
+
 
 .icones_principal {
-    text-align: center;
-    display: flex; /* Habilita o flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 120px; /* Ajuste conforme necessário */
-    width: 10em; /* Ajuste conforme necessário */
-    margin: auto;
-    margin-bottom: 3em;
+    color: var(--cor-de-fundo);
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1px;
+    height: 36px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
 
+.nomes_icones {
+    color: var(--cor-de-fundo);
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1px;
+    height: 36px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+.icone_imagem {
+    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Transição suave */
+    border-radius: 10px; /* Borda arredondada opcional */
+    width: 150px;
+    height: 150px;
 }
 
 .contador {
@@ -308,14 +350,6 @@ body {
 
 .imagemF {
     align-items: center;
-}
-
-.icone_imagem {
-    object-fit: contain; /* Mantém a proporção da imagem */
-    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Transição suave */
-    border-radius: 10px; /* Borda arredondada opcional */
-    width: 100px;
-    height: 100px;
 }
 
 .imagem {
